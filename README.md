@@ -4,7 +4,7 @@ This website was created to allow users to write favorite quotes
 Description
 This is an online platform where users can view and add favorite quotes
 
-website url: https:///Quotes/ #Technologies used This project was generated with Angular CLI version 7.1.4.
+website url: https://https://mzambia70.github.io/Quotes/ #Technologies used This project was generated with Angular CLI version 7.1.4.
 
 #Setup/Installation Requirements As long as you have a compatible browser the document will work. #Known Bugs There are no known bugs but if any please contact the developer.
 
