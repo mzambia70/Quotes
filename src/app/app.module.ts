@@ -3,12 +3,13 @@ import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuoteComponent } from './quote/quote.component';
+import { QuoteComponent } from './quotes/quotes.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { HighlightDirective } from './highlight.directive';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import {DateCountPipe} from './date-count.pipe';
-import {TimeAgoPipe} from 'time-ago-pipe'
+//import {TimeAgo} from './time-ago.pipe';
+
 
 
 @NgModule({
@@ -16,10 +17,11 @@ import {TimeAgoPipe} from 'time-ago-pipe'
     AppComponent,
     QuoteComponent,
     DateCountPipe,
-    TimeAgoPipe,
+    //TimeAgo,
     QuoteDetailsComponent,
     HighlightDirective,
     QuoteFormComponent,
+
 
   ],
   imports: [
@@ -30,4 +32,4 @@ import {TimeAgoPipe} from 'time-ago-pipe'
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }}
+export class AppModule { }
