@@ -12,6 +12,10 @@ export class QuotesComponent implements OnInit {
         new Quote(2,'look before you leap','tupac'),
     ]
 
+    toogleDetails(index){
+        this.quote[index].showDescription=!this.quote[index].showDescription;
+    }
+
   constructor() { }
 
   ngOnInit() {

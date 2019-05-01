@@ -7,10 +7,7 @@ import {Quote} from './quote'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    quote=[
-        new Quote(1,'look before you leap','mohamed'),
-        new Quote(2,'time waits for no man','tupac ')
-    ]
+ 
 
     constructor(){
 
